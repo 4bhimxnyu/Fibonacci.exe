@@ -54,3 +54,14 @@ body{
     color: black;
 }
 
+.Albums{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#covers{
+    width: 210px;
+    height: 210px;
+}
