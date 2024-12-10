@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F3F3E0;
+    color: #133E87;
+}
+
+.container{
+    margin: auto;
+    width: 900px;
+}
+
+.heading{
+    padding-top: 20px;
+    font-family: 'Share Tech Mono';
+    text-align: start;
+}
+
+#main-head{
+    font-size: 50px;
+}
+
+#second-head{
+    font-size: 30px;
+}
