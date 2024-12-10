@@ -35,3 +35,20 @@ body{
 #second-head{
     font-size: 30px;
 }
+
+.para-1{
+    font-size: 30px;
+    font-style: bold;
+}
+ 
+
+
+#hover-link {
+    text-decoration: none;
+    color: #6A1E55;
+  }
+
+#hover-link:hover {
+    text-decoration: underline;
+    color: #133E87;
+}
