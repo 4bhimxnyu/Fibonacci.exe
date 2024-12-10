@@ -62,16 +62,18 @@ body{
     gap: 10px;
 }
 
-#covers1{
+#covers{
    
-}
-
-.btn{ 
     width: 210px;
     height: 210px;
+}
+
+
+.btn{
     opacity: 100%;
 }
+    
 
 .btn:hover{
     opacity: 50%;
-}
+} 
