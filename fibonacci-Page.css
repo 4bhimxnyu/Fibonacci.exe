@@ -45,12 +45,13 @@ body{
 
 
 #hover-link {
-    text-decoration: none;
+    text-decoration: underline;
+
     color: #CC2B52;
   }
 
 #hover-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
@@ -61,7 +62,16 @@ body{
     gap: 10px;
 }
 
-#covers{
+#covers1{
+   
+}
+
+.btn{ 
     width: 210px;
     height: 210px;
+    opacity: 100%;
+}
+
+.btn:hover{
+    opacity: 50%;
 }
