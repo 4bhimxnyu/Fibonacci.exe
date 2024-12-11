@@ -70,10 +70,14 @@ body{
 
 
 .btn{
-    opacity: 100%;
+    opacity: 160%;
+       
+    width: 210px;
+    height: 210px;
 }
-    
+ 
 
 .btn:hover{
     opacity: 50%;
+   
 } 
