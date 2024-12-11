@@ -65,15 +65,16 @@ body{
 }
 
 #covers{
-   
+    border-radius: 8px;
     width: 210px;
     height: 210px;
+    
 }
 
 
 .btn{
     opacity: 160%;
-       
+    border-radius: 9px;  
     width: 210px;
     height: 210px;
 }
