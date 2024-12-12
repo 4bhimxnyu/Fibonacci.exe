@@ -5,12 +5,13 @@
     cursor: url('./Images/cura.png') 10 10, auto;
 }
 
+
 .share-tech-mono-regular {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -19,10 +20,12 @@ body{
     
 }
 
+
 .container{
     margin: auto;
     width: 900px;
 }
+
 
 .heading{
     padding-top: 20px;
@@ -30,13 +33,16 @@ body{
     text-align: start;
 }
 
+
 #main-head{
     font-size: 50px;
 }
 
+
 #second-head{
     font-size: 30px;
 }
+
 
 .para-1{
     font-size: 25px;
@@ -45,17 +51,18 @@ body{
 }
  
 
-
 #hover-link {
     text-decoration: underline;
     cursor: url('./Images/curs1.png') 5 5, auto;
     color: #CC2B52;
-  }
+}
+
 
 #hover-link:hover {
     text-decoration: none;
     color: black;
 }
+
 
 .Albums{
     margin: auto;
@@ -63,6 +70,7 @@ body{
     flex-wrap: wrap;
     gap: 10px;
 }
+
 
 #covers{
     border-radius: 8px;
@@ -82,8 +90,9 @@ body{
 
 .btn:hover{
     opacity: 50%;
-   
+     cursor: url('./Images/curs1.png'); 
 } 
+
 
 #head-btn{
     text-decoration: dashed underline;
