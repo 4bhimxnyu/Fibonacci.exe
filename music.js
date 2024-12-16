@@ -27,3 +27,20 @@ play4.addEventListener("click" , ()=>{
     audio.play();
 })
 
+let currentAudio = null;
+
+document.querySelectorAll('.button').forEach(button => {
+  button.addEventListener('click', () => {
+    const audioSrc = song.getAttribute('audio');
+
+    // Stop the currently playing audio if it exists
+    if (currentAudio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0; // Reset the audio to the beginning
+    }
+
+    // Create a new audio element and play the clicked song
+    currentAudio = new Audio(audioSrc);
+    currentAudio.play();
+  });
+});

@@ -78,21 +78,24 @@ body{
 }
 
 
-.btn{
+.button{
     opacity: 160%;
     border-radius: 9px;  
     width: 210px;
     height: 210px;
+    cursor: url('./Images/curs1.png') 5 5, auto;
 }
  
 
-.btn:hover{
+.button:hover{
     opacity: 50%;
-     cursor: url('./Images/curs1.png'); 
+    cursor: url('./Images/curs1.png') 5 5, auto;
 } 
 
 
 #head-btn{
     text-decoration: dashed underline;
     border: none;
+    cursor: url('./Images/curs1.png') 5 5, auto;
+    color: #CC2B52;
 }
