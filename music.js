@@ -26,3 +26,4 @@ play4.addEventListener("click" , ()=>{
     let audio = new Audio("./Audio/Travis Scott - SICKO MODE (Lyrics) ft. Drake.mp3");
     audio.play();
 })
+
