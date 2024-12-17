@@ -59,6 +59,7 @@ body{
 #hover-link:hover {
     text-decoration: none;
     color: black;
+    cursor: url('./Images/curs1.png') 5 5, auto;
 }
 
 
