@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -85,12 +86,14 @@ body{
     width: 210px;
     height: 210px;
     cursor: url('./Images/curs1.png') 5 5, auto;
+    transition: transform 0.3s ease-in-out;
 }
  
 
 .button:hover{
     opacity: 50%;
     cursor: url('./Images/curs1.png') 5 5, auto;
+    transform: scale(1.096);
 } 
 
 
@@ -99,4 +102,38 @@ body{
     border: none;
     cursor: url('./Images/curs1.png') 5 5, auto;
     color: #CC2B52;
+}
+
+@media (max-width: 768px) {
+    #main-head {
+        font-size: 2rem;
+    }
+
+    .para-1 {
+        font-size: 1rem;
+    }
+
+    .covers {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    #main-head {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .para-1 {
+        font-size: 0.9rem;
+    }
+
+    .covers {
+        width: 100px;
+        height: 100px;
+    }
 }
