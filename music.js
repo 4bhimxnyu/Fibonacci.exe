@@ -10,7 +10,7 @@ function playStrokes(){
     setTimeout(() => {
         audio.pause();
         audio.currentTime = 0; // Reset to the beginning
-    }, 8000);
+    }, 11000);
    
 }
 
@@ -22,7 +22,7 @@ play2.addEventListener("click" , ()=>{
     setTimeout(() => {
         audio.pause();
         audio.currentTime = 0; // Reset to the beginning
-    }, 8000);
+    }, 11000);
 })
 
 play3.addEventListener("click" , ()=>{
@@ -31,7 +31,7 @@ play3.addEventListener("click" , ()=>{
     setTimeout(() => {
         audio.pause();
         audio.currentTime = 0; // Reset to the beginning
-    }, 8000);
+    }, 11000);
 })
 
 play4.addEventListener("click" , ()=>{
@@ -40,6 +40,6 @@ play4.addEventListener("click" , ()=>{
     setTimeout(() => {
         audio.pause();
         audio.currentTime = 0; // Reset to the beginning
-    }, 8000);
+    }, 11000);
 })
 
