@@ -4,7 +4,8 @@ Certainly! Based on the information available in your GitHub repository [Fibonac
 
 # Fibonacci.exe
 
-Fibonacci.exe is a web-based application that visualizes the Fibonacci sequence. It provides an interactive interface for users to explore and understand the properties of the Fibonacci sequence.
+I like fibonacci series , there's no actual connection of fibonacci series in the project. But still i enjoyed doing the work so imma keep it 
+
 
 ## Features
 
